@@ -2,7 +2,8 @@
 alias bc='bin/console'
 alias _cc='bin/console cache:clear'
 
-//Composer 
+//Composer
+alias _cr='composer require'
 alias _addBundle='composer require'
 
 //Maker
