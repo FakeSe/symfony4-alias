@@ -1,0 +1,25 @@
+//Utils: 
+alias bc='bin/console'
+alias _cc='bin/console cache:clear'
+
+//Composer 
+alias _addBundle='composer require'
+
+//Maker
+alias _makeEntity='bin/console make:entity'
+alias _makeController='bin/console make:controller'
+alias _makeMigration='bin/console make:migration'
+alias _makeAuth='bin/console make:auth'
+alias _makeForm='bin/console make:form'
+alias _makeSigIn='bin/console make:registration-form'
+alias _makeCrud='bin/console make:crud'
+alias _makeUser'bin/console make:user'
+alias _makeVoter='bin/console make:voter'
+alias _makeValidator='bin/console make:validator'
+
+//Doctrine
+alias _loadFixtures='bin/console doctrine:fixtures:load'
+alias _migrate='bin/console doctrine:migrations:migrate'
+alias _createDb='bin/console doctrine:database:create'
+alias _dropDb='bin/console doctrine:schema:drop --full-database --force'
+alias _sql='bin/console doctrine:query:sql' //example: _sql "SELECT * FROM products"
